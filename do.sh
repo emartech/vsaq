@@ -298,7 +298,7 @@ case "$CMD" in
     vsaq_clean_deps;
     ;;
   run)
-    vsaq_run;
+    vsaq_run $*;
     ;;
   lint)
     vsaq_lint $*;
